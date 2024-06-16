@@ -20,5 +20,5 @@ st.markdown(
 
 a1=pd.read_csv('https://raw.githubusercontent.com/curseto/streamlit-test/main/%ED%8A%B9%EC%A7%95%EC%A3%BCDB.csv',sep=',')
 
-st.markdown(' ## 2019년~2024년 급둥주 데이터 모음')
+st.markdown(' ## 2019년~2024년 급등주 데이터 모음')
 st.dataframe(a1)
