@@ -22,7 +22,7 @@ st.markdown(
 
 
 # 데이터 분석
-a1=pd.read_csv('streamlit-test/오늘의공시.csv',sep=',', encoding='euc-kr')
+a1=pd.read_csv('https://github.com/curseto/streamlit-test.git/오늘의공시.csv',sep=',', encoding='euc-kr')
 a1=a1.iloc[:,1:3]
 a1= a1.dropna()
 a1['시간'] = pd.to_datetime(a1['시간'], format='%H:%M')
